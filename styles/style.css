@@ -1,0 +1,132 @@
+body{
+    background-color: rgba(163, 135, 135, 1);
+    /* display: flex; */
+    
+}
+
+.red-circle {
+    position: absolute;
+    z-index: -2;
+    width: 200px; /* Set the desired width of the circle */
+    height: 200px; /* Set the desired height of the circle */
+    background-color: red;
+    border-radius: 50%; /* Ensure it's a perfect circle */
+    filter: blur(90px); /* Adjust the blur value as needed */
+    opacity: 0.7; 
+    
+}
+.red-circle-1{
+    top: 50%;
+    left: 90%;
+    
+}
+.red-circle-2{
+    top: 85%;
+    left: 5%;
+    
+}
+.red-circle-3{
+    top: 3%;
+    left: 20%;
+
+}
+
+/* .backBlur{
+    position: absolute;
+    z-index: -1;
+
+} */
+
+.navbar {
+background-color: rgba(217, 217, 217, 0.5);
+color: black;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px 20px;
+border-radius: 20px;
+}
+
+.logo {
+display: flex;
+align-items: center;
+font-size: 25px;
+}
+
+.logo img {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background-color: red;
+margin-right: 20px;
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+padding: 0;
+}
+
+.nav-links li {
+margin-right: 85px;
+}
+
+.nav-links a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+
+.centered-box {
+    position: absolute;
+    left: 38%;
+    top: 25%;
+    width: 350px;
+    height: 400px;
+    background-color: rgba(217, 217, 217, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.centered-box h2{
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 25px;
+}
+
+input {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+box-sizing: border-box;
+border-radius: 20px;
+border: none;
+background-color: rgba(255, 255, 255, 0.5);
+margin-top: 30px;
+}
+
+button {
+padding: 5px 10px;
+background-color: rgba(165, 152, 152, 0.2);
+color: black;
+border: 2px solid black;
+cursor: pointer;
+font-size: 12px;
+margin-top: 50px;
+margin-left: 125px;
+border-radius: 20px;
+font-family: 'Inknut Antiqua', serif;
+letter-spacing: 2px;
+
+
+
+}
+
+.small-button {
+font-size: 15px;
+float: right;
+margin-right: 20px;
+margin-bottom: 10px;
+
+}
+
